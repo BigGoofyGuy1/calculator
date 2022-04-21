@@ -1,0 +1,17 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(3);
+   
+    grid-template-areas: 
+    "1 2 3"
+    "4 5 6"
+    "7 8 9"
+    "c 0 .";
+    
+}
+
+.total {
+    display: flex;
+    grid-column-end: 4;
+    justify-content: flex-end;
+}
